@@ -1,0 +1,5 @@
+model_path: "models/yolov8.pt"  # Path to the YOLOv8 model
+input_source: "data/sample_video.mp4"  # Input video or camera source
+confidence_threshold: 0.5  # Confidence threshold for detection
+nms_threshold: 0.4  # Non-maximum suppression threshold
+output_path: "output/detections.mp4"  # Output video path
